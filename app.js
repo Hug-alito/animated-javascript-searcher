@@ -1,4 +1,3 @@
-const apiKey = 'd4564b3b';
 const searchForm = document.getElementById('searchForm');
 const searchInput = document.getElementById('searchInput');
 const filmsContainer = document.querySelector('.films-container');

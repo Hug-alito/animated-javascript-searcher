@@ -40,7 +40,6 @@ function displayFilms(films) {
     filmsContainer.appendChild(filmBlock);
   });
 
-  // Add event listener for "Read More" buttons
   const readMoreButtons = document.querySelectorAll('.btn-read-more');
   readMoreButtons.forEach((button) => {
     button.addEventListener('click', () => {
@@ -76,7 +75,7 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     });
   }, {
-    threshold: 4.0
+    threshold: 1.0
   });
 
   const fadeIns = document.querySelectorAll('.fade-in');
